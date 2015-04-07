@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/jordan/Android/Projects/CMAI2/mopub-sdk/res"/><source path="/home/jordan/Android/Projects/CMAI2/mopub-sdk/build/generated/res/rs/release"/><source path="/home/jordan/Android/Projects/CMAI2/mopub-sdk/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/home/jordan/Android/Projects/CMAI2/mopub-sdk/src/release/res"/></dataSet><mergedItems/></merger>
