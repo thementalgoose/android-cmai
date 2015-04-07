@@ -29,9 +29,6 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.mopub.mobileads.MoPubErrorCode;
-import com.mopub.mobileads.MoPubView;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -63,7 +60,6 @@ public class MainActivity extends ActionBarActivity {
     final private String fileDIR = Environment.getExternalStorageDirectory().toString() + "/CMAppDownloaderInfo.txt";
     final public static int API = Build.VERSION.SDK_INT;
     final public static String sharedPreferencesID = "CMAI";
-    private MoPubView moPubView;
     public static boolean root = false;
 
     @Override
@@ -125,37 +121,6 @@ public class MainActivity extends ActionBarActivity {
             displayHome();
             setUpDrawer();
         }
-
-        /* Set up the adverts */
-        moPubView = (MoPubView) findViewById(R.id.adview);
-        moPubView.setAdUnitId("09e3bc9edae94a8cbe40b6af8148db36");
-        moPubView.loadAd();
-        moPubView.setBannerAdListener(new MoPubView.BannerAdListener() {
-            @Override
-            public void onBannerLoaded(MoPubView banner) {
-
-            }
-
-            @Override
-            public void onBannerFailed(MoPubView banner, MoPubErrorCode errorCode) {
-
-            }
-
-            @Override
-            public void onBannerClicked(MoPubView banner) {
-
-            }
-
-            @Override
-            public void onBannerExpanded(MoPubView banner) {
-
-            }
-
-            @Override
-            public void onBannerCollapsed(MoPubView banner) {
-
-            }
-        });
     }
 
     @Override
@@ -438,10 +403,6 @@ public class MainActivity extends ActionBarActivity {
                     Log.i(TAG, "Removed the text file: " + removed);
 
 
-                    // TESTING CODE
-
-
-
                     /* Display the home fragment */
                     displayHome();
                     setUpDrawer();
@@ -514,7 +475,6 @@ public class MainActivity extends ActionBarActivity {
 
 
     protected void onDestroy() {
-        moPubView.destroy();
         super.onDestroy();
     }
 }
