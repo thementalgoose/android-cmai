@@ -8,4 +8,7 @@
 
     <string name="settingsmenu_about_description">This application pulls recent apps from the CyanogenMod ROM and attempts to install them via. Root or non-root methods onto any ROM on a device.\n\nI cannot guarantee compatibility with the applications and your device, and I do not take responsibility if it breaks your device (though \'uninstall\' will often revert any problems caused). It has been extensively tested for your peace of mind, and I hope you have success in installing these applications.\n\nFeel free to contact me below, or if you like my work, buy me a drink :)\n\nthementalgoose@gmail.com</string>
     <string name="settingsmenu_code_code">Code\n\nThis window will show the code used to remount, copy, or move apks to the system directory\n\nNote: These are only if you install them as root applications! If not, then they are installed normally\n\nThese commands run as if they\'re run in terminal emulator, through java code using a Runtime Process.\n\nRequest superuser\n su\n\nRemount System for read-write privilages\n > mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system\n\nRemount System for read-only privilages\n > mount -o remount,ro -t yaffs2 /dev/block/mtdblock3 /system\n\nCopy\n > cat directory/file.apk > system/app/file.apk\n\nPermissions\n > chmod 644 /system/app/file.apk\n\nRemove\n > rm -r /system/app/file.apk\n\nReboot\n > reboot\n-Removed. Proved too unstable.\n\n</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-2514344976822965/5005745530</string>
 </resources>

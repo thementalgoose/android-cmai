@@ -29,6 +29,10 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -53,6 +57,7 @@ public class MainActivity extends ActionBarActivity {
     private Toolbar toolbar;
     private String activeLanguage = "Recall";
     final public static String TAG = "CMAI";
+    private AdView adView;
 
     /* Networking hard links */
     final private String info1 = "https://dl.dropbox.com/s/r0lgorm4fouljy4/desc.txt?dl=1";
@@ -60,6 +65,7 @@ public class MainActivity extends ActionBarActivity {
     final private String fileDIR = Environment.getExternalStorageDirectory().toString() + "/CMAppDownloaderInfo.txt";
     final public static int API = Build.VERSION.SDK_INT;
     final public static String sharedPreferencesID = "CMAI";
+
     public static boolean root = false;
 
     @Override
@@ -113,6 +119,16 @@ public class MainActivity extends ActionBarActivity {
         if (API < 20)
             root = canRunRootCommands();
 
+        /* Admob setup */
+        // Developer test id: E0B8F75BF29F906755EFAF4914556452
+        // Run in Emulator first!
+        adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice("E0B8F75BF29F906755EFAF4914556452")
+                .build();
+        adView.loadAd(adRequest);
+
+
 
         if (!getSharedPreferences(sharedPreferencesID, MODE_PRIVATE).getBoolean("INITIAL", false)) {
             LoadAppInfo lai = new LoadAppInfo();
@@ -157,6 +173,23 @@ public class MainActivity extends ActionBarActivity {
         }
         super.onBackPressed();
     }
+
+
+
+
+    /* OnResume methods and onPause methods - Handling the AdView once it's been dismissed */
+    @Override
+    protected void onResume() {
+        adView.resume();
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        adView.pause();
+        super.onPause();
+    }
+
 
 
     /* Display the home page fragment information */
@@ -473,8 +506,9 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-
+    /* onDestroy - Remove the adview */
     protected void onDestroy() {
+        adView.destroy();
         super.onDestroy();
     }
 }
