@@ -28,4 +28,6 @@ This application is available for download <a href="http://forum.xda-developers.
 
 Disclaimer: I do not take responsibility for any damage to your system that this does. Use at your own risk. The application if you are not rooted will only attempt to install apps that aren't malicious, so shouldn't cause any issues. Note if you use the root method you could irreversibly lose the application (even though a backup is made!)
 
+Any issues you have regarding this, feel free to email me [here](mailto:thementalgoose@gmail.com?subject=CMAI)
+
 If this application has helped you out, you can buy me a drink <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thementalgoose%40gmail%2ecom&lc=GB&no_note=0&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest">here!</a> :)
