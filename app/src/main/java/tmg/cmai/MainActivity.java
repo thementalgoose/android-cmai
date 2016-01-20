@@ -47,7 +47,6 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class MainActivity extends ActionBarActivity {
 
     /* Attributes */
