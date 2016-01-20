@@ -59,8 +59,8 @@ public class MainActivity extends ActionBarActivity {
     private AdView adView;
 
     /* Networking hard links */
-    final private String info1 = "https://dl.dropbox.com/s/r0lgorm4fouljy4/desc.txt?dl=1";
-    final private String info2 = "https://dl.dropbox.com/s/r0lgorm4fouljy4/desc.txt?dl=1";
+    final private String info1 = "https://raw.githubusercontent.com/thementalgoose/CMAI/master/files/index.txt";
+    final private String info2 = "https://raw.githubusercontent.com/thementalgoose/CMAI/master/files/index-backup.txt";
     final private String fileDIR = Environment.getExternalStorageDirectory().toString() + "/CMAppDownloaderInfo.txt";
     final public static int API = Build.VERSION.SDK_INT;
     final public static String sharedPreferencesID = "CMAI";
@@ -124,6 +124,7 @@ public class MainActivity extends ActionBarActivity {
         adView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice("E0B8F75BF29F906755EFAF4914556452")
+                .addTestDevice("070FA1D6EF544C3A2D207F46387E189C")
                 .build();
         adView.loadAd(adRequest);
 

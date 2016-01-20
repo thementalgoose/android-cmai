@@ -10,14 +10,15 @@ api18#4.3 Jelly Bean
 api19#4.4 KitKat
 api21#5.0 Lollipop
 api22#5.1 Lollipop
+api23#6.0 Marshmallow
 ---END
 ---APPLICATIONS
 Apollo#Apollo Music#Apollo music player is an application that's available in CyanogenMod ROM's as a rival to the Google Play Music app. It adds a widget, theming, and an intuitive design!
-api15#https://dl.dropbox.com/s/75ku9q5n7gid3sz/Apollo.apk?dl=1
-api16#https://dl.dropbox.com/s/3yx5cnzf1e1jl8n/Apollo.apk?dl=1
-api17#https://dl.dropbox.com/s/pzytvigc2yfumcv/Apollo.apk?dl=1
-api18#https://dl.dropbox.com/s/4sqhtqb92ovms04/Apollo.apk?dl=1
-api19#https://dl.dropbox.com/s/s9wxntq7fhs3ofd/Apollo.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/Apollo.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Apollo.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Apollo.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Apollo.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Apollo.apk?raw=true
 ---ENDA
 Calculator#Calculator#The CyanogenMod Calculator contains advanced mathematical functions, such as Matrices, Graph Drawing, and extended trigonometry functionality
 api15#https://dl.dropbox.com/s/ak5x6vz9mht3x3x/Calculator.apk?dl=1
