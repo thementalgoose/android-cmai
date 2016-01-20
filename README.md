@@ -2,8 +2,8 @@
 CyanogenMod App Installer is a solution for those who want the CyanogenMod apps on Stock Android or another ROM. It works by pulling the APK from the application, downloading it to your device and and installing it on to the system, with the option if you're running Android 4.4 or below to install it as a root user, pushing it directly to your /system/app folder and setting the appropriate permissions.
 
 New features:
-- New package name, new Material Design overhaul, new server source
-- Ability to download different versions of the apks
+- Now all localised from Github
+- Added some 6.0 apps 
 
 Currently the application includes:
 - Apollo
@@ -23,8 +23,7 @@ Currently the application includes:
 <img src="http://i.imgur.com/sy8vEtv.png" width="260" height="480"/>
 <img src="http://i.imgur.com/nYHi8LG.png" width="260" height="480"/>
 
-
-This application is available for download <a href="http://forum.xda-developers.com/android/apps-games/app-cm-app-installer-t2959922">here</a>
+This application is available for download <a href="http://forum.xda-developers.com/android/apps-games/app-cm-app-installer-t2959922">here from XDA</a> (<a href="http://forum.xda-developers.com/attachment.php?attachmentid=3508667&d=1453310949">Direct Link</a>)
 
 Disclaimer: I do not take responsibility for any damage to your system that this does. Use at your own risk. The application if you are not rooted will only attempt to install apps that aren't malicious, so shouldn't cause any issues. Note if you use the root method you could irreversibly lose the application (even though a backup is made!)
 

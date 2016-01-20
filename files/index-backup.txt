@@ -1,6 +1,6 @@
 <strong>CyanogenMod App Installer</strong> - New update!<br/><br/>CyanogenMod App Installer provides you with the ability to <i>attempt</i> install any of the CyanogenMod applications on your device, irrespective of the ROM you're running<br/><br/>Please make sure you have<br/>- An <strong>active internet connection</strong><br/>- <strong>Unknown sources enabled</strong> in your security settings. Click here to enable.<br/><br/>Please be aware you are downloading these application <strong>outside the play store</strong>, I can assure you they are safe, but proceed with caution<br/><br/>Finally, I cannot guarantee compatibility for these applications with your device and ROM. Apologies if they don't work!
 ---ALERT
-New application! Version 4.0.0
+Added some 6.0 applications to download
 ---END
 ---VERSIONS
 api15#4.0 Ice Cream Sandwich
@@ -9,92 +9,98 @@ api17#4.2 Jelly Bean
 api18#4.3 Jelly Bean
 api19#4.4 KitKat
 api21#5.0 Lollipop
-api22#5.1 Lollipop
+api23#6.0 Marshmallow
 ---END
 ---APPLICATIONS
 Apollo#Apollo Music#Apollo music player is an application that's available in CyanogenMod ROM's as a rival to the Google Play Music app. It adds a widget, theming, and an intuitive design!
-api15#https://dl.dropbox.com/s/75ku9q5n7gid3sz/Apollo.apk?dl=1
-api16#https://dl.dropbox.com/s/3yx5cnzf1e1jl8n/Apollo.apk?dl=1
-api17#https://dl.dropbox.com/s/pzytvigc2yfumcv/Apollo.apk?dl=1
-api18#https://dl.dropbox.com/s/4sqhtqb92ovms04/Apollo.apk?dl=1
-api19#https://dl.dropbox.com/s/s9wxntq7fhs3ofd/Apollo.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/Apollo.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Apollo.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Apollo.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Apollo.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Apollo.apk?raw=true
 ---ENDA
 Calculator#Calculator#The CyanogenMod Calculator contains advanced mathematical functions, such as Matrices, Graph Drawing, and extended trigonometry functionality
-api15#https://dl.dropbox.com/s/ak5x6vz9mht3x3x/Calculator.apk?dl=1
-api16#https://dl.dropbox.com/s/24ycdil8u0cj6sn/Calculator.apk?dl=1
-api17#https://dl.dropbox.com/s/q67nnf0pqgv0ce5/Calculator.apk?dl=1
-api18#https://dl.dropbox.com/s/h1y76svkhee21o9/Calculator.apk?dl=1
-api19#https://dl.dropbox.com/s/rgcks56hfan7mby/Calculator.apk?dl=1
-api21#https://dl.dropbox.com/s/s7vww6n51dgoawf/Calculator.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/Calculator.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Calculator.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Calculator.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Calculator.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Calculator.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/Calculator.apk?raw=true
 ---ENDA
 CMFileManager#CM File Manager#CyanogenMod File Manager is a clean, light weight file manager that looks professional and packs a ton of features to allow you to navigate and maintain your SDCard files
-api16#https://dl.dropbox.com/s/zich54603vaoqzy/CMFileManager.apk?dl=1
-api17#https://dl.dropbox.com/s/pr17pn2sihlarn3/CMFileManager.apk?dl=1
-api18#https://dl.dropbox.com/s/6wxakpypnuwxa0z/CMFileManager.apk?dl=1
-api19#https://dl.dropbox.com/s/mpe98dg5ia1padu/CMFileManager.apk?dl=1
-api21#https://dl.dropbox.com/s/7jgjl9kbatc72dw/CMFileManager.apk?dl=1
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/CMFileManager.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/CMFileManager.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/CMFileManager.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/CMFileManager.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/CMFileManager.apk?raw=true
+api23#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api23/CMFileManager.apk?raw=true
 ---ENDA
 CMWallpapers#CM Wallpapers#This is the app containing the wallpapers in the latest build of CyanogenMod, in true high definition glory!
-api15#https://dl.dropbox.com/s/yq1wngz8hhivlwr/CMWallpapers.apk?dl=1
-api16#https://dl.dropbox.com/s/28aowmklgl6ljeu/CMWallpapers.apk?dl=1
-api17#https://dl.dropbox.com/s/iizl421qok8s3o0/CMWallpapers.apk?dl=1
-api18#https://dl.dropbox.com/s/7lswr29qsuvpi5x/CMWallpapers.apk?dl=1
-api19#https://dl.dropbox.com/s/i2y1byadc3u7tru/CMWallpapers.apk?dl=1
-api21#https://dl.dropbox.com/s/ygcw0kkvo4c5qxh/CMWallpapers.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/CMWallpapers.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/CMWallpapers.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/CMWallpapers.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/CMWallpapers.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/CMWallpapers.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/CMWallpapers.apk?raw=true
+api23#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api23/CMWallpapers.apk?raw=true
 ---ENDA
 DSPManager#DSP Equalizer#DSP Equalizer is an addition to the android operating system, allowing for advanced music tuning, bass boost, and individual settings for headphones, speakers and bluetooth. Please enable under Settings > Sound > Music Effects once installed
-api15#https://dl.dropbox.com/s/ms8mknhm79cmxx9/DSPManager.apk?dl=1
-api16#https://dl.dropbox.com/s/lklbjjb1bth6ugr/DSPManager.apk?dl=1
-api17#https://dl.dropbox.com/s/em15t7icqnsxs59/DSPManager.apk?dl=1
-api18#https://dl.dropbox.com/s/9oj2fofa71peamg/DSPManager.apk?dl=1
-api19#https://dl.dropbox.com/s/87tkkd2jrla7y1f/DSPManager.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/DSPManager.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/DSPManager.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/DSPManager.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/DSPManager.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/DSPManager.apk?raw=true
 ---ENDA
 Gallery2#Gallery#This is the gallery app from a CM11 build, another app to view your embarrasing photos on!
-api15#https://dl.dropbox.com/s/79x3rnlz0zm319n/Gallery2.apk?dl=1
-api16#https://dl.dropbox.com/s/a6tlr9kevrwlfid/Gallery2.apk?dl=1
-api17#https://dl.dropbox.com/s/soejh1y2goy1yua/Gallery2.apk?dl=1
-api18#https://dl.dropbox.com/s/p6v9764xk2draln/Gallery2.apk?dl=1
-api19#https://dl.dropbox.com/s/uu2v4vkz0i2k4cp/Gallery2.apk?dl=1
-api21#https://dl.dropbox.com/s/q1qc7ptx669izwm/Gallery2.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/Gallery2.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Gallery2.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Gallery2.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Gallery2.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Gallery2.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/Gallery2.apk?raw=true
+api23#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api23/Gallery2.apk?raw=true
 ---ENDA
 LockClock#cLock Widget#cLock is the extended clock widget specifically for Cyanogenmod, later released as a separate app under the name Chronos. Download the original here now!
-api17#https://dl.dropbox.com/s/rqmaks04abca1lp/LockClock.apk?dl=1
-api18#https://dl.dropbox.com/s/a2vwauq0ux4kehc/LockClock.apk?dl=1
-api19#https://dl.dropbox.com/s/hn7i3nq1i9f24f5/LockClock.apk?dl=1
-api21#https://dl.dropbox.com/s/sv8x2if8lroch2o/LockClock.apk?dl=1
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/LockClock.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/LockClock.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/LockClock.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/LockClock.apk?raw=true
+api23#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api23/LockClock.apk?raw=true
 ---ENDA
 Mms#Messaging#The CyanogenMod messaging app is highly sort after, including some extended notification actions, quick reply, theming, and a vast array of more options. <strong>Be careful</strong> when installing this via. the Copy to /System method. This will likely replace your existing Messaging app, and you <strong>could lose messaging capability completely</strong>. A backup will be created, and that will be restored upon uninstallation, but please be aware
-api15#https://dl.dropbox.com/s/w6udbrlhdlpiu9i/Mms.apk?dl=1
-api16#https://dl.dropbox.com/s/dt44s63ghbj8e75/Mms.apk?dl=1
-api17#https://dl.dropbox.com/s/hkf0rps6zmc6j7a/Mms.apk?dl=1
-api18#https://dl.dropbox.com/s/smmczfjnjivrjnq/Mms.apk?dl=1
-api19#https://dl.dropbox.com/s/f9s0q4o3z3yup5g/Mms.apk?dl=1
-api21#https://dl.dropbox.com/s/yyqh5dbchuaz70k/Mms.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/Mms.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Mms.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Mms.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Mms.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Mms.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/Mms.apk?raw=true
+api23#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api23/Mms.apk?raw=true
 ---ENDA
 Torch#Torch#The torch app that the CyanogenMod ROM's include is a light weight and easy to use torch, with no ads and no unwanted features
-api16#https://dl.dropbox.com/s/dm758w2yshlzorp/Torch.apk?dl=1
-api17#https://dl.dropbox.com/s/p9xpsnmycq11f0b/Torch.apk?dl=1
-api18#https://dl.dropbox.com/s/xow1jxj2o3chq1y/Torch.apk?dl=1
-api19#https://dl.dropbox.com/s/fcigvikmkkp4o36/Torch.apk?dl=1
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Torch.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Torch.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Torch.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Torch.apk?raw=true
 ---ENDA
 Trebuchet#Trebuchet Launcher#The trebuchet launcher is a stock launcher with some specific added customisation from CyanogenMod, and comes as the default launcher
-api15#https://dl.dropbox.com/s/rzors04nldpm8n8/Trebuchet.apk?dl=1
-api16#https://dl.dropbox.com/s/62650ns4gcb0o4w/Trebuchet.apk?dl=1
-api17#https://dl.dropbox.com/s/ol6nvzdpq8auq8t/Trebuchet.apk?dl=1
-api18#https://dl.dropbox.com/s/pvmgc1319l04pzc/Trebuchet.apk?dl=1
-api19#https://dl.dropbox.com/s/l58vygzecszfurl/Trebuchet.apk?dl=1
-api21#https://dl.dropbox.com/s/pqo7xl6kpmlw6zg/Trebuchet.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/Trebuchet.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/Trebuchet.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/Trebuchet.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/Trebuchet.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/Trebuchet.apk?raw=true
+api21#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api21/Trebuchet.apk?raw=true
+api23#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api23/Trebuchet.apk?raw=true
 ---ENDA
 VideoEditor#Movie Studio#Movie studio is a video editing suite from Cyanogenmod for Android. Use your local photos and videos to edit and produce basic movies!
-api15#https://dl.dropbox.com/s/yqiq696gns6q0d6/VideoEditor.apk?dl=1
-api16#https://dl.dropbox.com/s/odcin7g8lc169po/VideoEditor.apk?dl=1
-api17#https://dl.dropbox.com/s/x57hib3mywaadzp/VideoEditor.apk?dl=1
-api18#https://dl.dropbox.com/s/bananz7bwmfuoe1/VideoEditor.apk?dl=1
-api19#https://dl.dropbox.com/s/9ntuz1hctinkh47/VideoEditor.apk?dl=1
+api15#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api15/VideoEditor.apk?raw=true
+api16#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api16/VideoEditor.apk?raw=true
+api17#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api17/VideoEditor.apk?raw=true
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/VideoEditor.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/VideoEditor.apk?raw=true
 ---ENDA
 VoicePlus#Voice+#Voice+ is CyanogenMod's answer to full google voice and android integration! Send or receive text messages using your voice!
-api18#https://dl.dropbox.com/s/i061ne5zwglv5o2/VoicePlus.apk?dl=1
-api19#https://dl.dropbox.com/s/kcmw1gjwswnuwk1/VoicePlus.apk?dl=1
+api18#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api18/VoicePlus.apk?raw=true
+api19#https://github.com/thementalgoose/CMAI/blob/master/files/apks/api19/VoicePlus.apk?raw=true
 ---ENDA
 ---END
 ---EXTRAS

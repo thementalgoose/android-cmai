@@ -8,8 +8,8 @@ android {
         applicationId "tmg.cmai"
         minSdkVersion 15
         targetSdkVersion 21
-        versionCode 60
-        versionName "2.0.0"
+        versionCode 61
+        versionName "4.0.1"
     }
     buildTypes {
         release {
