@@ -1,6 +1,4 @@
-# CMAI
-
-[Promotional](http://jordanfisher.xyz/projects/cmai)
+# CMAI - [XDA Thread](http://forum.xda-developers.com/android/apps-games/app-cm-app-installer-t2959922)
 
 CyanogenMod App Installer is a solution for those who want the CyanogenMod apps on Stock Android or another ROM. It works by pulling the APK from the application, downloading it to your device and and installing it on to the system, with the option if you're running Android 4.4 or below to install it as a root user, pushing it directly to your /system/app folder and setting the appropriate permissions.
 
